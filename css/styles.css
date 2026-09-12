@@ -1,6 +1,6 @@
 :root{
-    --colorPrimario: #F54927;
-    --colorSecundario: #4F6B3C;
+    --colorPrimario: #df3b1a;
+    --colorSecundario: #3a4e2d;
     --colorTerceario: #1A1818;
     --colorParrafo: #333333;
     --colorTitulo: #302D2D;
@@ -13,57 +13,77 @@
     box-sizing: border-box;
 }
 
-
-.titulo-2, .titulo-1{
-    text-align: left;
+.titulo-1 {
+    text-align: center;
     font-family: 'Poppins';
-    font-size: 2em;
-    font-weight: 600
+    font-size: 1em;
+    font-weight: 500;
+}
 
+.titulo-1 {
+    color: var(--colorTitulo);
+    
+}
+
+.parrafo {
+    font-family: 'Poppins';
+    font-size: 1.2em;
+    text-align: justify;
+    line-height: 2;
 
 }
 
-.titulo-1{
+.parrafo-2 {
+    font-family: 'Poppins';
+    font-size: 3em;
+    text-align: center;
+    line-height: 1;
+    font-weight: 600;
+
+}
+
+.parrafo-2{
     color: var(--colorPrimario);
-    font-size: 3em; margin-top: -12px;
 }
 
-.titulo-2{
-    color: var(--colorParrafo);
-    font-size: 2.2em; margin-top:  -14px;
-}
-
-.titulo-3{
-    text-align: left;
+.patrie{
     font-family: 'Poppins';
-    font-size: 1.5em;
+    font-size: 3em;
+    text-align: center;
+    line-height: 1;
     font-weight: 600;
 }
 
-.titulo-3{
+.patrie{
     color: var(--colorSecundario);
-    font-size: 2em; margin-top: -30px;
 }
 
-.parrafo{
-    text-align: justify;
-    font-family: 'Poppins';
-    font-size: 1.1em;
-    line-height: 1.5;
+/* Estilo del Botón */
+.boton-2 {
+  display: inline-block;
+  background-color: #ff8c00;
+  color: #ffffff;
+  padding: 8px 24px;
+  border-radius: 50px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: background-color 0.2s ease;
 }
 
-.parrafo{
-    color: var(--colorParrafo);
+.boton-2:hover {
+  background-color: #d87700;
+  color: #ffffff;
 }
 
-.iconoAB{
-    position: fixed;
-    right: 1em;
-    bottom: 1em;
-    font-size: 3em;
-    background-color: #F54927;
-    color: #fff;
-    border-radius: 50%;
-    padding: .3em;
-    box-shadow: 0px 0px 6px #000;
+.cuadro{
+    background-color: #ffffff;
+    border: 1px solid #1A1818 ;
+    border-radius: 10px;
+    padding: 1.2em;
+    text-align: center;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
 }
